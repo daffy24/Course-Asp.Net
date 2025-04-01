@@ -11,7 +11,6 @@ public class MyCustomMiddleware : IMiddleware
             string id = context.Request.Query["id"]!;
             await context.Response.WriteAsync($"<p>{id}</p>");
         }
-        
         await context.Response.WriteAsync($"<h1>Path: {path}</h1>");
         await next(context);
         await context.Response.WriteAsync($"<h2>Method: {method}</h2>");

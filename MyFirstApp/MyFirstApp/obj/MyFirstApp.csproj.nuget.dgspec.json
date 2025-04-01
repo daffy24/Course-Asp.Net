@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\aspnetcore\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj": {}
+    "C:\\Users\\Lerka\\RiderProjects\\Course-Asp.Net\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj": {}
   },
   "projects": {
-    "C:\\aspnetcore\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj": {
+    "C:\\Users\\Lerka\\RiderProjects\\Course-Asp.Net\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\aspnetcore\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj",
+        "projectUniqueName": "C:\\Users\\Lerka\\RiderProjects\\Course-Asp.Net\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj",
         "projectName": "MyFirstApp",
-        "projectPath": "C:\\aspnetcore\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj",
-        "packagesPath": "C:\\Users\\Діма\\.nuget\\packages\\",
-        "outputPath": "C:\\aspnetcore\\MyFirstApp\\MyFirstApp\\obj\\",
+        "projectPath": "C:\\Users\\Lerka\\RiderProjects\\Course-Asp.Net\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj",
+        "packagesPath": "C:\\Users\\Lerka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lerka\\RiderProjects\\Course-Asp.Net\\MyFirstApp\\MyFirstApp\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "C:\\Users\\Діма\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Lerka\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Lerka\\.dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
