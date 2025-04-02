@@ -1,6 +1,6 @@
 namespace MyFirstApp.MathApp;
 
-public class MyMathApp : IMiddleware
+public class MyMathApp: IMiddleware
 {
     public async Task InvokeAsync(HttpContext context, RequestDelegate next)
     {
@@ -36,6 +36,17 @@ public class MyMathApp : IMiddleware
             }
             
         }
-        
+
+        await next(context);
+
     }
+}
+
+public static class MyMathAppExtensions
+{
+    public static IApplicationBuilder UseMyMathApp(this IApplicationBuilder app)
+    {
+        return app.UseMiddleware<MyMathApp>();
+    }
+    
 }

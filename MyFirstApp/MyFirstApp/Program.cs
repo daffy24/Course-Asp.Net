@@ -1,16 +1,28 @@
-using MyFirstApp.CustomMiddleware;
-using System.IO;
-using Microsoft.Extensions.Primitives;
-using MyFirstApp.MathApp;
+//using System.IO;
+//using Microsoft.Extensions.Primitives;
+//using MyFirstApp.CustomMiddleware;
+using MyFirstApp.LoginMiddleware;
+//sing MyFirstApp.MathApp;
 
 var builder = WebApplication.CreateBuilder(args);
 //builder.Services.AddTransient<MyCustomMiddleware>();
-builder.Services.AddTransient<MyMathApp>();
+//builder.Services.AddTransient<MyMathApp>();
+//builder.Services.AddTransient<MyLoginApp>();
 
 var app = builder.Build();
 
-// app.UseMiddleware<MyCustomMiddleware>();
-app.UseMiddleware<MyMathApp>();
+app.UseMyLoginMiddleware();
+
+app.Run(async context => {
+    await context.Response.WriteAsync("No response");
+});
+//app.UseMiddleware<MyCustomMiddleware>();
+
+//app.UseMyCustomMiddleware();
+
+//app.UseHelloCustomMiddleware();
+
+//app.UseMyMathApp();
 
 // app.Run(async (HttpContext context) =>
 // {
